@@ -1,0 +1,105 @@
+/* CSS for the body */
+body {
+  color: black;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+/* Css for the nav bar */
+ul {
+  background-color: #4C88A7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 15px;
+  padding: 30px;
+  /* font-family:; */
+  font-size: 200%;
+  list-style-type: none;
+  overflow: hidden;
+  position: sticky;
+}
+/* CSS for the about us page */
+.Annabio {
+  display: flex;
+  border: 3px solid wite;
+  /* border-style: solid;
+  border-color: black; */
+}
+
+.Alexbio {
+  display: flex;
+  border: 3px solid white;
+  /* border-style: solid;
+  border-color: black; */
+}
+
+.Ayanobio {
+  display: flex;
+  border: 3px solid white;
+  /* border-style: solid;
+  border-color: black; */
+}
+/* image CSS */
+ img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+   height: 240px;
+ }
+ .intro {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 3px dashed white;
+   width: 100%;
+   height: auto;
+
+ }
+
+img:hover{
+   border: 5px solid #4C88A7;
+
+ }
+
+ .intro-text {
+   margin: 5%;
+   padding: 1%;
+   /* border: 3px dashed black; */
+   text-align: center;
+   color: black;
+   font-size: 2vw;
+ }
+
+ h3{
+   color: #00468b;
+   font-size: 25px;
+ }
+.statistics{
+
+
+}
+ .footnote{
+   background-color: #4C88A7;
+   color: white;
+   font-size: 30px;
+   text-align: center;
+ }
+
+#image1{
+height: 200px;
+width: 100px;
+}
+
+/* this is css for the about us page */
+.aboutus {
+  height: 350px;
+  width: 50%;
+  object-fit: cover;
+}
+
+h1{
+  color: blue;
+  text-align: center;
+}
